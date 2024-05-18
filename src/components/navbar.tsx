@@ -21,6 +21,7 @@ function NavItem({ children, href }: NavItemProps) {
         target={href ? "_blank" : "_self"}
         variant="small"
         className="font-medium"
+        {...({} as any)}
       >
         {children}
       </Typography>
@@ -64,7 +65,7 @@ export function Navbar() {
       className="fixed top-0 z-50 border-0"
     >
       <div className="container mx-auto flex items-center justify-between">
-        <Typography variant="h6" color={isScrolling ? "blue-gray" : "white"}>
+        <Typography variant="h6" color={isScrolling ? "blue-gray" : "white"} {...({} as any)}>
           Flower Classification
         </Typography>
         <ul
@@ -81,7 +82,7 @@ export function Navbar() {
         </ul>
         <div className="hidden gap-2 lg:flex">
           <a href="https://huggingface.co/spaces/miracle01/flower_classification_fcahpt_hnd2_tolulope" target="_blank">
-            <Button color={isScrolling ? "gray" : "white"} size="sm">
+            <Button color={isScrolling ? "gray" : "white"} size="sm" {...({} as any)}>
               Get Started
             </Button>
           </a>
