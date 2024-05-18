@@ -26,7 +26,7 @@ function Hero() {
           </Typography>
           <div>
             
-            <Button variant="gradient" color="white">
+            <Button variant="gradient" color="white" {...({} as any)}>
               Get Started
             </Button>
           </div>
