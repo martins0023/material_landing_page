@@ -15,6 +15,7 @@ export function CarouselFeatures() {
         <Typography
           variant="lead"
           className="mb-3 w-full text-center font-normal !text-gray-500 lg:w-10/12"
+          {...({} as any)}
         >
           Discover about the flower classification and detection.
         </Typography>
@@ -48,6 +49,7 @@ export function CarouselFeatures() {
                   variant="lead"
                   color="white"
                   className="mb-5 text-xl font-normal "
+                  {...({} as any)}
                 >
                   Explore this project <br />
                   and contribute to 
@@ -58,6 +60,7 @@ export function CarouselFeatures() {
                   variant="small"
                   color="white"
                   className="font-medium uppercase"
+                  {...({} as any)}
                 >
                   Miracle O.A,{" "}
                   <span className="font-normal opacity-60">
