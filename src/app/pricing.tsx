@@ -24,7 +24,7 @@ export function Pricing() {
             will send you a full refund.
           </Typography>
         </div>
-        <Card className="px-6 pb-5">
+        <Card className="px-6 pb-5" {...({} as any)}>
           <CardBody>
             <Typography variant="h3" color="blue-gray" {...({} as any)}>
               React Course Membership
