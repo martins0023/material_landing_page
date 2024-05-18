@@ -25,7 +25,7 @@ export function Pricing() {
           </Typography>
         </div>
         <Card className="px-6 pb-5" {...({} as any)}>
-          <CardBody>
+          <CardBody {...({} as any)}>
             <Typography variant="h3" color="blue-gray" {...({} as any)}>
               React Course Membership
             </Typography>
