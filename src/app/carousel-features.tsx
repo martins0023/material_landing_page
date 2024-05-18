@@ -38,6 +38,7 @@ export function CarouselFeatures() {
               ))}
             </div>
           )}
+          {...({} as any)}
         >
           {new Array(2).fill("").map((_, i) => (
             <div
