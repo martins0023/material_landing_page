@@ -24,6 +24,7 @@ export function Footer() {
         <Typography
           color="blue-gray"
           className="md:text-center mt-16 font-normal !text-gray-700"
+          {...({} as any)}
         >
           &copy; {CURRENT_YEAR} Made with{" "}
           <a href="https://www.material-tailwind.com" target="_blank">
