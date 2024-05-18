@@ -34,12 +34,13 @@ export function OtherCourses() {
   return (
     <section className="pb-20 px-8">
       <div className="container mx-auto mb-20 text-center">
-        <Typography variant="h2" color="blue-gray" className="mb-4">
+        <Typography variant="h2" color="blue-gray" className="mb-4" {...({} as any)}>
           Flower Variations
         </Typography>
         <Typography
           variant="lead"
           className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-6/12"
+          {...({} as any)}
         >
           Looking to detect and classify flowers.
         </Typography>
